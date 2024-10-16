@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007BFF;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 15px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex; /* Flexbox para menú horizontal */
+        }
+        nav li {
+            position: relative;
+            margin: 0 20px; /* Espacio entre menús */
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: block; /* Para que el área de clic sea más grande */
+        }
+        nav .submenu {
+            display: none;
+            position: absolute;
+            background: #444;
+            z-index: 1;
+            padding: 10px 0;
+        }
+        nav li:hover .submenu {
+            display: block;
+        }
+        nav li:hover > a {
+            background: #007BFF;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column; /* Cambiar a vertical en móvil */
+            }
+            nav ul {
+                flex-direction: column; /* Asegura que los menús se alineen verticalmente */
+            }
+            nav li {
+                margin: 10px 0; /* Espacio entre menús en móviles */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ansiedad Social</h1>
+    <p>Recursos y guías para enfrentar la ansiedad social</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Introducción</a>
+            <ul class="submenu">
+                <li><a href= 1.html>¿Qué es la ansiedad social?</a></li>
+                <li><a href= 2.html>Causas</a></li>
+                <li><a href= 3.html>Síntomas</a></li>
+                <li><a href= 4.html>Diagnóstico</a></li>
+                <li><a href= 5.html>Consecuencias</a></li>
+                <li><a href= 6.html>Estadísticas</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Tratamientos</a>
+            <ul class="submenu">
+                <li><a href= 7.html>Terapia cognitivo-conductual</a></li>
+                <li><a href= 8.html>Medicamentos</a></li>
+                <li><a href= 9.html>Técnicas de relajación</a></li>
+                <li><a href= 10.html>Ejercicio físico</a></li>
+                <li><a href= 11.html>Apoyo social</a></li>
+                <li><a href= 12.html>Mindfulness</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Consejos Prácticos</a>
+            <ul class="submenu">
+                <li><a href= 13.html>Manejo del estrés</a></li>
+                <li><a href= 14.html>Estrategias de afrontamiento</a></li>
+                <li><a href= 15.html>Mejorar la comunicación</a></li>
+                <li><a href= 16.html>Enfrentar situaciones sociales</a></li>
+                <li><a href= 17.html>Autoafirmación</a></li>
+                <li><a href= 18.html>Visualización positiva</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Recursos</a>
+            <ul class="submenu">
+                <li><a href= 19.html>Libros recomendados</a></li>
+                <li><a href= 20.html>Enlaces útiles</a></li>
+                <li><a href= 21.html>Grupos de apoyo</a></li>
+                <li><a href= 22.html>Artículos científicos</a></li>
+                <li><a href= 23.html>Videos informativos</a></li>
+                <li><a href= 24.html>Aplicaciones móviles</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Testimonios</a>
+            <ul class="submenu">
+                <li><a href= 25.html>Historias de superación</a></li>
+                <li><a href= 26.html>Experiencias compartidas</a></li>
+                <li><a href= 27.html>Entrevistas</a></li>
+                <li><a href= 28.html>Impacto del tratamiento</a></li>
+                <li><a href= 29.html>Consejos de quienes han superado</a></li>
+                <li><a href= 30.html>Videos de testimonios</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Investigación</a>
+            <ul class="submenu">
+                <li><a href= 31.html>Estudios recientes</a></li>
+                <li><a href= 32.html>Avances en tratamientos</a></li>
+                <li><a href= 33.html>Tendencias en la ansiedad social</a></li>
+                <li><a>Proyectos actuales</a></li>
+                <li><a href= 35.html>Publicaciones relevantes</a></li>
+                <li><a href= 36.html>Conferencias y simposios</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<main>
+   <section>
+    <h2>Proyectos actuales sobre la ansiedad social</h2>
+    <p>En el ámbito de la salud mental, diversos proyectos actuales se están llevando a cabo para abordar la ansiedad social. Estos proyectos buscan no solo aumentar la conciencia sobre la condición, sino también desarrollar tratamientos más efectivos y crear espacios de apoyo. A continuación, se presentan algunos de los proyectos destacados en este campo.</p>
+
+    <h3>1. Iniciativas de concienciación comunitaria</h3>
+    <p>Proyectos comunitarios están surgiendo para educar a la población sobre la ansiedad social. Estas iniciativas incluyen talleres, seminarios y campañas de sensibilización que buscan desestigmatizar la ansiedad y fomentar un entorno de apoyo. Organizaciones como <strong>Mind</strong> y <strong>NAMI (National Alliance on Mental Illness)</strong> están liderando esfuerzos para crear recursos accesibles.</p>
+
+    <h3>2. Investigación sobre tratamientos innovadores</h3>
+    <p>Varios estudios están en marcha para explorar tratamientos innovadores para la ansiedad social. Esto incluye la investigación sobre el uso de terapia de realidad virtual, que permite a los pacientes enfrentarse a situaciones sociales en un entorno controlado y seguro. Proyectos como el de la <strong>Universidad de Stanford</strong> están mostrando resultados prometedores en la eficacia de este enfoque.</p>
+
+    <h3>3. Aplicaciones móviles para la salud mental</h3>
+    <p>El desarrollo de aplicaciones móviles está en auge, con proyectos que buscan proporcionar herramientas prácticas para manejar la ansiedad social. Aplicaciones como <strong>Woebot</strong> y <strong>Calm</strong> ofrecen recursos interactivos que ayudan a los usuarios a practicar técnicas de afrontamiento y seguimiento de su estado emocional.</p>
+
+    <h3>4. Grupos de apoyo virtuales</h3>
+    <p>Con el aumento de la telemedicina, se han creado grupos de apoyo virtuales para personas que experimentan ansiedad social. Estos grupos permiten a los participantes compartir sus experiencias y recibir apoyo de manera cómoda y accesible. Proyectos como <strong>7 Cups</strong> ofrecen plataformas donde los usuarios pueden conectarse con consejeros y otros que comparten sus luchas.</p>
+
+    <h3>5. Colaboraciones interdisciplinares</h3>
+    <p>Hay un creciente interés en las colaboraciones interdisciplinares que abordan la ansiedad social desde múltiples ángulos. Proyectos que involucran a psicólogos, psiquiatras, educadores y trabajadores sociales están surgiendo para desarrollar programas integrales que ofrecen un enfoque holístico al tratamiento de la ansiedad social.</p>
+
+    <h3>Conclusión</h3>
+    <p>Los proyectos actuales en el campo de la ansiedad social reflejan un enfoque proactivo hacia la concienciación, el tratamiento y el apoyo. A medida que estos proyectos continúan desarrollándose, es fundamental que las personas afectadas se mantengan informadas sobre estos recursos y participen en las iniciativas que puedan beneficiarlas. La innovación y la colaboración son clave para avanzar en la lucha contra la ansiedad social.</p>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2024 Ansiedad Social. Todos los derechos reservados.</p>
+</footer>
+
+<script>
+    // Aquí puedes agregar interactividad con JavaScript si lo deseas.
+</script>
+
+</body>
+</html>

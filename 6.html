@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007BFF;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 15px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex; /* Flexbox para menú horizontal */
+        }
+        nav li {
+            position: relative;
+            margin: 0 20px; /* Espacio entre menús */
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: block; /* Para que el área de clic sea más grande */
+        }
+        nav .submenu {
+            display: none;
+            position: absolute;
+            background: #444;
+            z-index: 1;
+            padding: 10px 0;
+        }
+        nav li:hover .submenu {
+            display: block;
+        }
+        nav li:hover > a {
+            background: #007BFF;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column; /* Cambiar a vertical en móvil */
+            }
+            nav ul {
+                flex-direction: column; /* Asegura que los menús se alineen verticalmente */
+            }
+            nav li {
+                margin: 10px 0; /* Espacio entre menús en móviles */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ansiedad Social</h1>
+    <p>Recursos y guías para enfrentar la ansiedad social</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Introducción</a>
+            <ul class="submenu">
+                <li><a href= 1.html>¿Qué es la ansiedad social?</a></li>
+                <li><a href= 2.html>Causas</a></li>
+                <li><a href= 3.html>Síntomas</a></li>
+                <li><a href= 4.html>Diagnóstico</a></li>
+                <li><a href= 5.html>Consecuencias</a></li>
+                <li><a>Estadísticas</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Tratamientos</a>
+            <ul class="submenu">
+                <li><a href= 7.html>Terapia cognitivo-conductual</a></li>
+                <li><a href= 8.html>Medicamentos</a></li>
+                <li><a href= 9.html>Técnicas de relajación</a></li>
+                <li><a href= 10.html>Ejercicio físico</a></li>
+                <li><a href= 11.html>Apoyo social</a></li>
+                <li><a href= 12.html>Mindfulness</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Consejos Prácticos</a>
+            <ul class="submenu">
+                <li><a href= 13.html>Manejo del estrés</a></li>
+                <li><a href= 14.html>Estrategias de afrontamiento</a></li>
+                <li><a href= 15.html>Mejorar la comunicación</a></li>
+                <li><a href= 16.html>Enfrentar situaciones sociales</a></li>
+                <li><a href= 17.html>Autoafirmación</a></li>
+                <li><a href= 18.html>Visualización positiva</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Recursos</a>
+            <ul class="submenu">
+                <li><a href= 19.html>Libros recomendados</a></li>
+                <li><a href= 20.html>Enlaces útiles</a></li>
+                <li><a href= 21.html>Grupos de apoyo</a></li>
+                <li><a href= 22.html>Artículos científicos</a></li>
+                <li><a href= 23.html>Videos informativos</a></li>
+                <li><a href= 24.html>Aplicaciones móviles</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Testimonios</a>
+            <ul class="submenu">
+                <li><a href= 25.html>Historias de superación</a></li>
+                <li><a href= 26.html>Experiencias compartidas</a></li>
+                <li><a href= 27.html>Entrevistas</a></li>
+                <li><a href= 28.html>Impacto del tratamiento</a></li>
+                <li><a href= 29.html>Consejos de quienes han superado</a></li>
+                <li><a href= 30.html>Videos de testimonios</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Investigación</a>
+            <ul class="submenu">
+                <li><a href= 31.html>Estudios recientes</a></li>
+                <li><a href= 32.html>Avances en tratamientos</a></li>
+                <li><a href= 33.html>Tendencias en la ansiedad social</a></li>
+                <li><a href= 34.html>Proyectos actuales</a></li>
+                <li><a href= 35.html>Publicaciones relevantes</a></li>
+                <li><a href= 36.html>Conferencias y simposios</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<main>
+    <section>
+    <h2>Estadísticas de la ansiedad social</h2>
+    <p>La ansiedad social es un trastorno común que afecta a una parte significativa de la población mundial. Comprender las estadísticas relacionadas con este trastorno puede ayudar a sensibilizar sobre su prevalencia y el impacto que tiene en la vida de las personas. A continuación, se presentan algunas estadísticas clave sobre la ansiedad social.</p>
+
+    <h3>1. Prevalencia</h3>
+    <p>Las investigaciones indican que la ansiedad social es uno de los trastornos de ansiedad más comunes. Algunos datos sobre su prevalencia incluyen:</p>
+    <ul>
+        <li><strong>Datos globales:</strong> Se estima que alrededor del <strong>7-13%</strong> de la población mundial experimentará ansiedad social en algún momento de su vida.</li>
+        <li><strong>Incidencia en jóvenes:</strong> La ansiedad social a menudo comienza en la infancia o adolescencia, afectando aproximadamente al <strong>5-10%</strong> de los adolescentes.</li>
+        <li><strong>Género:</strong> Las mujeres tienden a reportar síntomas de ansiedad social con más frecuencia que los hombres, con una relación de aproximadamente <strong>2:1</strong>.</li>
+    </ul>
+
+    <h3>2. Impacto en la vida diaria</h3>
+    <p>La ansiedad social puede tener un impacto profundo en diferentes áreas de la vida de las personas, incluyendo:</p>
+    <ul>
+        <li><strong>Relaciones interpersonales:</strong> Se estima que más del <strong>40%</strong> de las personas con ansiedad social evitan situaciones sociales que podrían ser gratificantes.</li>
+        <li><strong>Vida laboral:</strong> Aproximadamente el <strong>30%</strong> de las personas con ansiedad social sienten que su condición afecta su rendimiento laboral.</li>
+        <li><strong>Rendimiento académico:</strong> Hasta el <strong>25%</strong> de los estudiantes que experimentan ansiedad social reportan problemas significativos en su desempeño académico debido a sus síntomas.</li>
+    </ul>
+
+    <h3>3. Comorbilidad</h3>
+    <p>La ansiedad social a menudo coexiste con otros trastornos mentales, lo que puede complicar su diagnóstico y tratamiento:</p>
+    <ul>
+        <li><strong>Depresión:</strong> Aproximadamente el <strong>30-50%</strong> de las personas con ansiedad social también experimentan síntomas de depresión.</li>
+        <li><strong>Trastornos de ansiedad:</strong> La ansiedad social puede coexistir con otros trastornos de ansiedad, como el trastorno de pánico, en aproximadamente el <strong>20-30%</strong> de los casos.</li>
+        <li><strong>Abuso de sustancias:</strong> Las personas con ansiedad social tienen un mayor riesgo de desarrollar problemas relacionados con el uso de sustancias, con una tasa de comorbilidad que oscila entre el <strong>10-20%</strong>.</li>
+    </ul>
+
+    <h3>4. Búsqueda de tratamiento</h3>
+    <p>A pesar de la prevalencia de la ansiedad social, muchos no reciben tratamiento adecuado:</p>
+    <ul>
+        <li><strong>Tratamiento inadecuado:</strong> Se estima que menos del <strong>40%</strong> de las personas con ansiedad social buscan tratamiento profesional.</li>
+        <li><strong>Estigmatización:</strong> El estigma asociado a los trastornos mentales puede disuadir a las personas de buscar ayuda, con aproximadamente el <strong>50%</strong> de las personas con ansiedad social que sienten que su condición no es comprendida por los demás.</li>
+    </ul>
+
+    <h3>Conclusión</h3>
+    <p>Las estadísticas sobre la ansiedad social subrayan su prevalencia y el impacto significativo que tiene en la vida de las personas. Aumentar la conciencia sobre este trastorno es fundamental para fomentar la comprensión y el apoyo, así como para alentar a quienes padecen ansiedad social a buscar la ayuda que necesitan. La intervención temprana y el tratamiento adecuado pueden marcar una diferencia significativa en la calidad de vida de los afectados.</p>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2024 Ansiedad Social. Todos los derechos reservados.</p>
+</footer>
+
+<script>
+    // Aquí puedes agregar interactividad con JavaScript si lo deseas.
+</script>
+
+</body>
+</html>

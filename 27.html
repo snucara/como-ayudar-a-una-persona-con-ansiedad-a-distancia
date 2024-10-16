@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007BFF;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 15px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex; /* Flexbox para menú horizontal */
+        }
+        nav li {
+            position: relative;
+            margin: 0 20px; /* Espacio entre menús */
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: block; /* Para que el área de clic sea más grande */
+        }
+        nav .submenu {
+            display: none;
+            position: absolute;
+            background: #444;
+            z-index: 1;
+            padding: 10px 0;
+        }
+        nav li:hover .submenu {
+            display: block;
+        }
+        nav li:hover > a {
+            background: #007BFF;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column; /* Cambiar a vertical en móvil */
+            }
+            nav ul {
+                flex-direction: column; /* Asegura que los menús se alineen verticalmente */
+            }
+            nav li {
+                margin: 10px 0; /* Espacio entre menús en móviles */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ansiedad Social</h1>
+    <p>Recursos y guías para enfrentar la ansiedad social</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Introducción</a>
+            <ul class="submenu">
+                <li><a href= 1.html>¿Qué es la ansiedad social?</a></li>
+                <li><a href= 2.html>Causas</a></li>
+                <li><a href= 3.html>Síntomas</a></li>
+                <li><a href= 4.html>Diagnóstico</a></li>
+                <li><a href= 5.html>Consecuencias</a></li>
+                <li><a href= 6.html>Estadísticas</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Tratamientos</a>
+            <ul class="submenu">
+                <li><a href= 7.html>Terapia cognitivo-conductual</a></li>
+                <li><a href= 8.html>Medicamentos</a></li>
+                <li><a href= 9.html>Técnicas de relajación</a></li>
+                <li><a href= 10.html>Ejercicio físico</a></li>
+                <li><a href= 11.html>Apoyo social</a></li>
+                <li><a href= 12.html>Mindfulness</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Consejos Prácticos</a>
+            <ul class="submenu">
+                <li><a href= 13.html>Manejo del estrés</a></li>
+                <li><a href= 14.html>Estrategias de afrontamiento</a></li>
+                <li><a href= 15.html>Mejorar la comunicación</a></li>
+                <li><a href= 16.html>Enfrentar situaciones sociales</a></li>
+                <li><a href= 17.html>Autoafirmación</a></li>
+                <li><a href= 18.html>Visualización positiva</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Recursos</a>
+            <ul class="submenu">
+                <li><a href= 19.html>Libros recomendados</a></li>
+                <li><a href= 20.html>Enlaces útiles</a></li>
+                <li><a href= 21.html>Grupos de apoyo</a></li>
+                <li><a href= 22.html>Artículos científicos</a></li>
+                <li><a href= 23.html>Videos informativos</a></li>
+                <li><a href= 24.html>Aplicaciones móviles</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Testimonios</a>
+            <ul class="submenu">
+                <li><a href= 25.html>Historias de superación</a></li>
+                <li><a href= 26.html>Experiencias compartidas</a></li>
+                <li><a>Entrevistas</a></li>
+                <li><a href= 28.html>Impacto del tratamiento</a></li>
+                <li><a href= 29.html>Consejos de quienes han superado</a></li>
+                <li><a href= 30.html>Videos de testimonios</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Investigación</a>
+            <ul class="submenu">
+                <li><a href= 31.html>Estudios recientes</a></li>
+                <li><a href= 32.html>Avances en tratamientos</a></li>
+                <li><a href= 33.html>Tendencias en la ansiedad social</a></li>
+                <li><a href= 34.html>Proyectos actuales</a></li>
+                <li><a href= 35.html>Publicaciones relevantes</a></li>
+                <li><a href= 36.html>Conferencias y simposios</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<main>
+    <section>
+    <h2>Entrevistas sobre la ansiedad social</h2>
+    <p>Las entrevistas son una forma efectiva de explorar las vivencias y perspectivas de personas que han enfrentado la ansiedad social. A través de sus relatos, podemos aprender sobre sus luchas, estrategias y procesos de recuperación. A continuación, se presentan algunas entrevistas con individuos que comparten su experiencia con la ansiedad social y cómo han encontrado maneras de gestionarla.</p>
+
+    <h3>1. Entrevista con Ana: La búsqueda de ayuda profesional</h3>
+    <p><strong>Entrevistador:</strong> ¿Cuándo te diste cuenta de que tu ansiedad social estaba afectando tu vida?</p>
+    <p><strong>Ana:</strong> Desde que era adolescente, pero fue en la universidad cuando se volvió más evidente. Me sentía abrumada en situaciones sociales y eso afectaba mi rendimiento académico.</p>
+    <p><strong>Entrevistador:</strong> ¿Qué te motivó a buscar ayuda?</p>
+    <p><strong>Ana:</strong> Me di cuenta de que no podía seguir así. Quería disfrutar de la vida universitaria y hacer amigos, así que decidí buscar terapia.</p>
+    <p><strong>Entrevistador:</strong> ¿Cómo ha sido tu experiencia en la terapia?</p>
+    <p><strong>Ana:</strong> Ha sido transformadora. Aprendí técnicas de afrontamiento y también sobre la importancia de hablar sobre mis sentimientos. Me siento más empoderada para enfrentar situaciones sociales.</p>
+
+    <h3>2. Entrevista con Daniel: Superando el miedo a hablar en público</h3>
+    <p><strong>Entrevistador:</strong> ¿Cuál era tu mayor miedo relacionado con la ansiedad social?</p>
+    <p><strong>Daniel:</strong> Hablar en público. Cada vez que tenía que presentar algo, sentía que me paralizaba. Mi corazón latía rápidamente y no podía pensar con claridad.</p>
+    <p><strong>Entrevistador:</strong> ¿Qué hiciste para superar este miedo?</p>
+    <p><strong>Daniel:</strong> Comencé a practicar técnicas de relajación y me uní a un grupo de oratoria. Al principio fue difícil, pero con el tiempo, comencé a sentirme más cómodo al hablar frente a otros.</p>
+    <p><strong>Entrevistador:</strong> ¿Qué consejos le darías a alguien que enfrenta el mismo miedo?</p>
+    <p><strong>Daniel:</strong> Que busque oportunidades para practicar en un ambiente seguro y que no tenga miedo de ser vulnerable. Todos tienen sus propios miedos.</p>
+
+    <h3>3. Entrevista con Lucía: Encontrando la fuerza en la comunidad</h3>
+    <p><strong>Entrevistador:</strong> ¿Cómo ha impactado la ansiedad social en tus relaciones interpersonales?</p>
+    <p><strong>Lucía:</strong> Ha sido complicado. A menudo me sentía desconectada de mis amigos y familiares, y eso me hacía sentir más sola.</p>
+    <p><strong>Entrevistador:</strong> ¿Cómo encontraste apoyo en la comunidad?</p>
+    <p><strong>Lucía:</strong> Comencé a asistir a un grupo de apoyo y fue increíble. Conocer a otras personas que pasaban por lo mismo me hizo sentir que no estaba sola y que había esperanza.</p>
+    <p><strong>Entrevistador:</strong> ¿Qué has aprendido de tus experiencias en el grupo?</p>
+    <p><strong>Lucía:</strong> La importancia de la empatía y la conexión. Compartir historias y escuchar a otros ha sido sanador.</p>
+
+    <h3>4. Entrevista con Roberto: La escritura como terapia</h3>
+    <p><strong>Entrevistador:</strong> ¿Cómo te ha ayudado la escritura a lidiar con tu ansiedad social?</p>
+    <p><strong>Roberto:</strong> Al escribir, pude explorar mis pensamientos y emociones. Fue una forma de liberar lo que sentía sin el temor del juicio de los demás.</p>
+    <p><strong>Entrevistador:</strong> ¿Has compartido tus escritos con otros?</p>
+    <p><strong>Roberto:</strong> Sí, empecé un blog y la respuesta ha sido positiva. Al compartir mis experiencias, he conectado con personas que se sienten identificadas.</p>
+    <p><strong>Entrevistador:</strong> ¿Qué impacto ha tenido esto en tu vida?</p>
+    <p><strong>Roberto:</strong> Me ha dado un propósito y me ha ayudado a construir una comunidad de apoyo. Además, he aprendido que mis experiencias pueden ser útiles para otros.</p>
+
+    <h3>Conclusión</h3>
+    <p>Las entrevistas sobre la ansiedad social brindan una ventana a las luchas y triunfos de quienes enfrentan este trastorno. A través de sus relatos, podemos ver la diversidad de experiencias y las diferentes estrategias que han utilizado para encontrar el camino hacia la recuperación. Estas voces son un recordatorio de que, aunque el camino puede ser difícil, la conexión y el apoyo son fundamentales en la búsqueda de la sanación.</p>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2024 Ansiedad Social. Todos los derechos reservados.</p>
+</footer>
+
+<script>
+    // Aquí puedes agregar interactividad con JavaScript si lo deseas.
+</script>
+
+</body>
+</html>

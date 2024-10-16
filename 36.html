@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007BFF;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 15px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex; /* Flexbox para menú horizontal */
+        }
+        nav li {
+            position: relative;
+            margin: 0 20px; /* Espacio entre menús */
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: block; /* Para que el área de clic sea más grande */
+        }
+        nav .submenu {
+            display: none;
+            position: absolute;
+            background: #444;
+            z-index: 1;
+            padding: 10px 0;
+        }
+        nav li:hover .submenu {
+            display: block;
+        }
+        nav li:hover > a {
+            background: #007BFF;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column; /* Cambiar a vertical en móvil */
+            }
+            nav ul {
+                flex-direction: column; /* Asegura que los menús se alineen verticalmente */
+            }
+            nav li {
+                margin: 10px 0; /* Espacio entre menús en móviles */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ansiedad Social</h1>
+    <p>Recursos y guías para enfrentar la ansiedad social</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Introducción</a>
+            <ul class="submenu">
+                <li><a href= 1.html>¿Qué es la ansiedad social?</a></li>
+                <li><a href= 2.html>Causas</a></li>
+                <li><a href= 3.html>Síntomas</a></li>
+                <li><a href= 4.html>Diagnóstico</a></li>
+                <li><a href= 5.html>Consecuencias</a></li>
+                <li><a href= 6.html>Estadísticas</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Tratamientos</a>
+            <ul class="submenu">
+                <li><a href= 7.html>Terapia cognitivo-conductual</a></li>
+                <li><a href= 8.html>Medicamentos</a></li>
+                <li><a href= 9.html>Técnicas de relajación</a></li>
+                <li><a href= 10.html>Ejercicio físico</a></li>
+                <li><a href= 11.html>Apoyo social</a></li>
+                <li><a href= 12.html>Mindfulness</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Consejos Prácticos</a>
+            <ul class="submenu">
+                <li><a href= 13.html>Manejo del estrés</a></li>
+                <li><a href= 14.html>Estrategias de afrontamiento</a></li>
+                <li><a href= 15.html>Mejorar la comunicación</a></li>
+                <li><a href= 16.html>Enfrentar situaciones sociales</a></li>
+                <li><a href= 17.html>Autoafirmación</a></li>
+                <li><a href= 18.html>Visualización positiva</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Recursos</a>
+            <ul class="submenu">
+                <li><a href= 19.html>Libros recomendados</a></li>
+                <li><a href= 20.html>Enlaces útiles</a></li>
+                <li><a href= 21.html>Grupos de apoyo</a></li>
+                <li><a href= 22.html>Artículos científicos</a></li>
+                <li><a href= 23.html>Videos informativos</a></li>
+                <li><a href= 24.html>Aplicaciones móviles</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Testimonios</a>
+            <ul class="submenu">
+                <li><a href= 25.html>Historias de superación</a></li>
+                <li><a href= 26.html>Experiencias compartidas</a></li>
+                <li><a href= 27.html>Entrevistas</a></li>
+                <li><a href= 28.html>Impacto del tratamiento</a></li>
+                <li><a href= 29.html>Consejos de quienes han superado</a></li>
+                <li><a href= 30.html>Videos de testimonios</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Investigación</a>
+            <ul class="submenu">
+                <li><a href= 31.html>Estudios recientes</a></li>
+                <li><a href= 32.html>Avances en tratamientos</a></li>
+                <li><a href= 33.html>Tendencias en la ansiedad social</a></li>
+                <li><a href= 34.html>Proyectos actuales</a></li>
+                <li><a href= 35.html>Publicaciones relevantes</a></li>
+                <li><a>Conferencias y simposios</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<main>
+   <section>
+    <h2>Conferencias y simposios sobre la ansiedad social</h2>
+    <p>Las conferencias y simposios son espacios importantes para el intercambio de conocimientos y experiencias sobre la ansiedad social. Estos eventos reúnen a profesionales de la salud mental, investigadores y personas afectadas por la ansiedad, promoviendo un diálogo constructivo y el avance en el tratamiento y la comprensión de esta condición. A continuación, se presentan algunos de los eventos más relevantes en este campo.</p>
+
+    <h3>1. Conferencia Internacional sobre Ansiedad y Depresión</h3>
+    <p>Esta conferencia reúne a expertos de todo el mundo para discutir los últimos avances en la investigación y tratamiento de trastornos de ansiedad y depresión, incluida la ansiedad social. Los participantes pueden asistir a talleres, presentaciones y paneles de discusión que abordan diversos aspectos de la salud mental.</p>
+
+    <h3>2. Simposio de Terapia Cognitivo-Conductual</h3>
+    <p>El simposio se centra en las técnicas y enfoques de la terapia cognitivo-conductual (TCC) en el tratamiento de la ansiedad social. Profesionales comparten sus experiencias clínicas y los resultados de investigaciones recientes, ofreciendo a los asistentes herramientas prácticas para aplicar en su trabajo.</p>
+
+    <h3>3. Congreso de Salud Mental y Tecnología</h3>
+    <p>Este congreso explora la intersección entre la salud mental y la tecnología, incluyendo el uso de aplicaciones móviles y terapia en línea para tratar la ansiedad social. Los expertos discuten cómo estas herramientas están cambiando el panorama del tratamiento de la salud mental y mejorando el acceso a la atención.</p>
+
+    <h3>4. Encuentro de Grupos de Apoyo y Redes Sociales</h3>
+    <p>Este evento reúne a facilitadores de grupos de apoyo y a personas que buscan conectarse con otros que enfrentan la ansiedad social. Se llevan a cabo talleres interactivos y sesiones de compartir experiencias, lo que fomenta la creación de redes de apoyo y amistad.</p>
+
+    <h3>5. Conferencia sobre Mindfulness y Salud Mental</h3>
+    <p>La conferencia se centra en las prácticas de mindfulness como herramienta para el manejo de la ansiedad social. Expertos en el campo comparten investigaciones recientes y técnicas que han demostrado ser efectivas para ayudar a las personas a enfrentar situaciones sociales desafiantes.</p>
+
+    <h3>Conclusión</h3>
+    <p>Las conferencias y simposios son oportunidades valiosas para el aprendizaje y el intercambio de ideas sobre la ansiedad social. Estos eventos no solo benefician a los profesionales de la salud mental, sino que también ofrecen un espacio para que las personas afectadas se conecten y encuentren apoyo. Mantenerse al tanto de estos eventos puede enriquecer la comprensión y el tratamiento de la ansiedad social.</p>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2024 Ansiedad Social. Todos los derechos reservados.</p>
+</footer>
+
+<script>
+    // Aquí puedes agregar interactividad con JavaScript si lo deseas.
+</script>
+
+</body>
+</html>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007BFF;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 15px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex; /* Flexbox para menú horizontal */
+        }
+        nav li {
+            position: relative;
+            margin: 0 20px; /* Espacio entre menús */
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: block; /* Para que el área de clic sea más grande */
+        }
+        nav .submenu {
+            display: none;
+            position: absolute;
+            background: #444;
+            z-index: 1;
+            padding: 10px 0;
+        }
+        nav li:hover .submenu {
+            display: block;
+        }
+        nav li:hover > a {
+            background: #007BFF;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column; /* Cambiar a vertical en móvil */
+            }
+            nav ul {
+                flex-direction: column; /* Asegura que los menús se alineen verticalmente */
+            }
+            nav li {
+                margin: 10px 0; /* Espacio entre menús en móviles */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ansiedad Social</h1>
+    <p>Recursos y guías para enfrentar la ansiedad social</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Introducción</a>
+            <ul class="submenu">
+                <li><a href= 1.html>¿Qué es la ansiedad social?</a></li>
+                <li><a href= 2.html>Causas</a></li>
+                <li><a href= 3.html>Síntomas</a></li>
+                <li><a href= 4.html>Diagnóstico</a></li>
+                <li><a href= 5.html>Consecuencias</a></li>
+                <li><a href= 6.html>Estadísticas</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Tratamientos</a>
+            <ul class="submenu">
+                <li><a href= 7.html>Terapia cognitivo-conductual</a></li>
+                <li><a href= 8.html>Medicamentos</a></li>
+                <li><a href= 9.html>Técnicas de relajación</a></li>
+                <li><a href= 10.html>Ejercicio físico</a></li>
+                <li><a href= 11.html>Apoyo social</a></li>
+                <li><a href= 12.html>Mindfulness</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Consejos Prácticos</a>
+            <ul class="submenu">
+                <li><a href= 13.html>Manejo del estrés</a></li>
+                <li><a href= 14.html>Estrategias de afrontamiento</a></li>
+                <li><a href= 15.html>Mejorar la comunicación</a></li>
+                <li><a href= 16.html>Enfrentar situaciones sociales</a></li>
+                <li><a href= 17.html>Autoafirmación</a></li>
+                <li><a href= 18.html>Visualización positiva</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Recursos</a>
+            <ul class="submenu">
+                <li><a href= 19.html>Libros recomendados</a></li>
+                <li><a>Enlaces útiles</a></li>
+                <li><a href= 21.html>Grupos de apoyo</a></li>
+                <li><a href= 22.html>Artículos científicos</a></li>
+                <li><a href= 23.html>Videos informativos</a></li>
+                <li><a href= 24.html>Aplicaciones móviles</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Testimonios</a>
+            <ul class="submenu">
+                <li><a href= 25.html>Historias de superación</a></li>
+                <li><a href= 26.html>Experiencias compartidas</a></li>
+                <li><a href= 27.html>Entrevistas</a></li>
+                <li><a href= 28.html>Impacto del tratamiento</a></li>
+                <li><a href= 29.html>Consejos de quienes han superado</a></li>
+                <li><a href= 30.html>Videos de testimonios</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Investigación</a>
+            <ul class="submenu">
+                <li><a href= 31.html>Estudios recientes</a></li>
+                <li><a href= 32.html>Avances en tratamientos</a></li>
+                <li><a href= 33.html>Tendencias en la ansiedad social</a></li>
+                <li><a href= 34.html>Proyectos actuales</a></li>
+                <li><a href= 35.html>Publicaciones relevantes</a></li>
+                <li><a href= 36.html>Conferencias y simposios</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<main>
+    <section>
+    <h2>Enlaces útiles para la ansiedad social</h2>
+    <p>En la era digital, acceder a recursos en línea puede ser de gran ayuda para quienes enfrentan la ansiedad social. A continuación, se presentan una serie de enlaces útiles que ofrecen información, apoyo y herramientas prácticas para manejar la ansiedad social. Estos recursos incluyen organizaciones, artículos, foros y aplicaciones que pueden ser beneficiosas.</p>
+
+    <h3>1. Asociaciones y organizaciones</h3>
+    <p>Las siguientes organizaciones ofrecen recursos y apoyo para personas que luchan con la ansiedad social:</p>
+    <ul>
+        <li><a href="https://www.adaa.org/" target="_blank">ADAA (Anxiety and Depression Association of America)</a>: Proporciona información sobre la ansiedad, recursos para encontrar terapeutas y herramientas para el manejo de la ansiedad.</li>
+        <li><a href="https://www.nami.org/" target="_blank">NAMI (National Alliance on Mental Illness)</a>: Ofrece apoyo, educación y recursos para personas con problemas de salud mental, incluyendo ansiedad social.</li>
+        <li><a href="https://www.mhanational.org/" target="_blank">Mental Health America</a>: Brinda información sobre salud mental y recursos comunitarios, incluyendo herramientas para la autoevaluación y el manejo de la ansiedad.</li>
+    </ul>
+
+    <h3>2. Artículos y blogs</h3>
+    <p>Los siguientes artículos y blogs ofrecen información valiosa sobre la ansiedad social y estrategias para enfrentarlo:</p>
+    <ul>
+        <li><a href="https://www.psychologytoday.com/us/basics/social-anxiety" target="_blank">Social Anxiety Overview - Psychology Today</a>: Un artículo que ofrece una visión general de la ansiedad social, sus síntomas y tratamientos.</li>
+        <li><a href="https://www.verywellmind.com/social-anxiety-disorder-2794938" target="_blank">Social Anxiety Disorder - Verywell Mind</a>: Un recurso completo que aborda el trastorno de ansiedad social, incluyendo síntomas, causas y tratamientos.</li>
+        <li><a href="https://www.healthline.com/health/social-anxiety" target="_blank">Understanding Social Anxiety - Healthline</a>: Un artículo que explica qué es la ansiedad social y ofrece consejos prácticos para manejarla.</li>
+    </ul>
+
+    <h3>3. Foros y comunidades en línea</h3>
+    <p>Los foros y comunidades en línea pueden ser un lugar valioso para compartir experiencias y obtener apoyo:</p>
+    <ul>
+        <li><a href="https://www.reddit.com/r/socialanxiety/" target="_blank">Reddit - Social Anxiety</a>: Una comunidad en línea donde los usuarios comparten experiencias, consejos y recursos relacionados con la ansiedad social.</li>
+        <li><a href="https://www.anxietyforum.net/" target="_blank">Anxiety Forum</a>: Un foro dedicado a la discusión de la ansiedad en general, incluyendo la ansiedad social, donde los miembros pueden conectarse y apoyarse mutuamente.</li>
+    </ul>
+
+    <h3>4. Aplicaciones móviles</h3>
+    <p>Las aplicaciones móviles pueden ofrecer herramientas prácticas para manejar la ansiedad social en la vida diaria:</p>
+    <ul>
+        <li><a href="https://www.headspace.com/" target="_blank">Headspace</a>: Una aplicación de meditación que ayuda a reducir la ansiedad y el estrés a través de ejercicios de mindfulness.</li>
+        <li><a href="https://www.calm.com/" target="_blank">Calm</a>: Ofrece meditaciones guiadas, historias para dormir y ejercicios de respiración para ayudar a manejar la ansiedad.</li>
+        <li><a href="https://www.wellnessapp.com/" target="_blank">Wellness Coach</a>: Esta aplicación permite a los usuarios establecer metas de bienestar y ofrece recursos para la autoayuda, incluyendo la gestión de la ansiedad.</li>
+    </ul>
+
+    <h3>5. Recursos educativos y cursos en línea</h3>
+    <p>Los cursos y recursos educativos pueden ser útiles para aprender más sobre la ansiedad social y las estrategias de manejo:</p>
+    <ul>
+        <li><a href="https://www.coursera.org/learn/the-science-of-well-being" target="_blank">The Science of Well-Being - Coursera</a>: Un curso que explora el bienestar emocional y ofrece técnicas para mejorar la felicidad y la resiliencia.</li>
+        <li><a href="https://www.udemy.com/course/social-anxiety-solution/" target="_blank">Social Anxiety Solution - Udemy</a>: Un curso que ofrece estrategias para superar la ansiedad social y mejorar las habilidades sociales.</li>
+    </ul>
+
+    <h3>Conclusión</h3>
+    <p>Los recursos en línea pueden ser un complemento valioso para el manejo de la ansiedad social. Desde organizaciones y artículos informativos hasta foros de apoyo y aplicaciones útiles, hay una amplia variedad de herramientas disponibles para ayudar a quienes enfrentan la ansiedad social a encontrar estrategias efectivas y conexiones significativas. Explorar estos enlaces puede ser un paso positivo hacia la comprensión y el manejo de la ansiedad social.</p>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2024 Ansiedad Social. Todos los derechos reservados.</p>
+</footer>
+
+<script>
+    // Aquí puedes agregar interactividad con JavaScript si lo deseas.
+</script>
+
+</body>
+</html>

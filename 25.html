@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007BFF;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 15px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex; /* Flexbox para menú horizontal */
+        }
+        nav li {
+            position: relative;
+            margin: 0 20px; /* Espacio entre menús */
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: block; /* Para que el área de clic sea más grande */
+        }
+        nav .submenu {
+            display: none;
+            position: absolute;
+            background: #444;
+            z-index: 1;
+            padding: 10px 0;
+        }
+        nav li:hover .submenu {
+            display: block;
+        }
+        nav li:hover > a {
+            background: #007BFF;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column; /* Cambiar a vertical en móvil */
+            }
+            nav ul {
+                flex-direction: column; /* Asegura que los menús se alineen verticalmente */
+            }
+            nav li {
+                margin: 10px 0; /* Espacio entre menús en móviles */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ansiedad Social</h1>
+    <p>Recursos y guías para enfrentar la ansiedad social</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Introducción</a>
+            <ul class="submenu">
+                <li><a href= 1.html>¿Qué es la ansiedad social?</a></li>
+                <li><a href= 2.html>Causas</a></li>
+                <li><a href= 3.html>Síntomas</a></li>
+                <li><a href= 4.html>Diagnóstico</a></li>
+                <li><a href= 5.html>Consecuencias</a></li>
+                <li><a href= 6.html>Estadísticas</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Tratamientos</a>
+            <ul class="submenu">
+                <li><a href= 7.html>Terapia cognitivo-conductual</a></li>
+                <li><a href= 8.html>Medicamentos</a></li>
+                <li><a href= 9.html>Técnicas de relajación</a></li>
+                <li><a href= 10.html>Ejercicio físico</a></li>
+                <li><a href= 11.html>Apoyo social</a></li>
+                <li><a href= 12.html>Mindfulness</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Consejos Prácticos</a>
+            <ul class="submenu">
+                <li><a href= 13.html>Manejo del estrés</a></li>
+                <li><a href= 14.html>Estrategias de afrontamiento</a></li>
+                <li><a href= 15.html>Mejorar la comunicación</a></li>
+                <li><a href= 16.html>Enfrentar situaciones sociales</a></li>
+                <li><a href= 17.html>Autoafirmación</a></li>
+                <li><a href= 18.html>Visualización positiva</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Recursos</a>
+            <ul class="submenu">
+                <li><a href= 19.html>Libros recomendados</a></li>
+                <li><a href= 20.html>Enlaces útiles</a></li>
+                <li><a href= 21.html>Grupos de apoyo</a></li>
+                <li><a href= 22.html>Artículos científicos</a></li>
+                <li><a href= 23.html>Videos informativos</a></li>
+                <li><a href= 24.html>Aplicaciones móviles</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Testimonios</a>
+            <ul class="submenu">
+                <li><a>Historias de superación</a></li>
+                <li><a href= 26.html>Experiencias compartidas</a></li>
+                <li><a href= 27.html>Entrevistas</a></li>
+                <li><a href= 28.html>Impacto del tratamiento</a></li>
+                <li><a href= 29.html>Consejos de quienes han superado</a></li>
+                <li><a href= 30.html>Videos de testimonios</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Investigación</a>
+            <ul class="submenu">
+                <li><a href= 31.html>Estudios recientes</a></li>
+                <li><a href= 32.html>Avances en tratamientos</a></li>
+                <li><a href= 33.html>Tendencias en la ansiedad social</a></li>
+                <li><a href= 34.html>Proyectos actuales</a></li>
+                <li><a href= 35.html>Publicaciones relevantes</a></li>
+                <li><a href= 36.html>Conferencias y simposios</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<main>
+ <section>
+    <h2>Historias de superación sobre la ansiedad social</h2>
+    <p>Las historias de superación son inspiradoras y pueden proporcionar esperanza y motivación a quienes enfrentan la ansiedad social. A través de estas narrativas, las personas comparten sus luchas, estrategias y triunfos en el camino hacia la recuperación. A continuación, se presentan algunas historias destacadas de superación que ilustran el impacto positivo de la resiliencia y el apoyo.</p>
+
+    <h3>1. La historia de Sara: De la soledad a la conexión</h3>
+    <p>Sara, una joven de 28 años, luchó con la ansiedad social desde la adolescencia. Durante años, evitó situaciones sociales y se sintió atrapada en un ciclo de aislamiento. Sin embargo, decidió buscar ayuda y se unió a un grupo de apoyo. A través de la terapia y la práctica de habilidades sociales, aprendió a enfrentar sus miedos. Con el tiempo, comenzó a asistir a eventos sociales y a conectar con personas que compartían sus intereses. Hoy, Sara es una defensora de la salud mental y utiliza su historia para inspirar a otros a buscar ayuda.</p>
+
+    <h3>2. La historia de Carlos: Superando el miedo al rechazo</h3>
+    <p>Carlos, un estudiante universitario, siempre había sentido una profunda ansiedad en situaciones sociales, especialmente al hablar en público. Después de un episodio de pánico durante una presentación, decidió que necesitaba un cambio. Se inscribió en un curso de oratoria y comenzó a practicar con amigos. A pesar de sus temores iniciales, Carlos descubrió que con la práctica y el apoyo de sus compañeros, podía hablar con confianza. Ahora, no solo se siente más cómodo en situaciones sociales, sino que también ha participado en conferencias y talleres, compartiendo su historia de superación.</p>
+
+    <h3>3. La historia de María: Encontrando la fuerza en la vulnerabilidad</h3>
+    <p>María, una madre de dos hijos, enfrentó la ansiedad social tras experimentar un trauma personal. Sentía que su ansiedad afectaba no solo su vida, sino también la de su familia. Decidió buscar terapia y se dio cuenta de que compartir su experiencia era un paso crucial en su proceso de sanación. Al abrirse con amigos y familiares sobre su lucha, encontró un inmenso apoyo. María ahora dirige un grupo de apoyo para madres con ansiedad social, donde comparte su historia y ayuda a otras a sentirse menos solas en su lucha.</p>
+
+    <h3>4. La historia de David: La escritura como terapia</h3>
+    <p>David, un escritor en ciernes, ha lidiado con la ansiedad social durante años. Durante mucho tiempo, evitó compartir su trabajo y participar en lecturas públicas debido al miedo al juicio. Sin embargo, decidió canalizar su ansiedad a través de la escritura y comenzó un blog sobre su experiencia con la ansiedad social. Con el tiempo, se animó a compartir sus relatos en eventos literarios. A través de esta experiencia, David no solo encontró una forma de expresar sus sentimientos, sino que también descubrió una comunidad de apoyo que lo alentó a seguir adelante.</p>
+
+    <h3>5. La historia de Ana: Adoptando la mentalidad de crecimiento</h3>
+    <p>Ana, una joven profesional, siempre había evitado situaciones de networking por su ansiedad social. Un día, decidió que quería cambiar esto y se unió a un programa de desarrollo profesional. Allí, aprendió sobre la mentalidad de crecimiento y la importancia de enfrentar los desafíos. A través de ejercicios prácticos y el apoyo de sus compañeros, Ana comenzó a asistir a eventos de networking y a establecer conexiones valiosas en su campo. Su transformación la llevó a conseguir un trabajo que ama y a ayudar a otros a superar sus propios miedos.</p>
+
+    <h3>Conclusión</h3>
+    <p>Las historias de superación de personas que han enfrentado la ansiedad social son testimonio de la resiliencia humana y la capacidad de cambio. Cada relato es único, pero todos comparten un hilo común: la importancia de buscar ayuda, encontrar apoyo y enfrentar los desafíos con valentía. Estas narrativas pueden inspirar a otros a dar el primer paso hacia la superación y recordarles que no están solos en su lucha.</p>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2024 Ansiedad Social. Todos los derechos reservados.</p>
+</footer>
+
+<script>
+    // Aquí puedes agregar interactividad con JavaScript si lo deseas.
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007BFF;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 15px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex; /* Flexbox para menú horizontal */
+        }
+        nav li {
+            position: relative;
+            margin: 0 20px; /* Espacio entre menús */
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: block; /* Para que el área de clic sea más grande */
+        }
+        nav .submenu {
+            display: none;
+            position: absolute;
+            background: #444;
+            z-index: 1;
+            padding: 10px 0;
+        }
+        nav li:hover .submenu {
+            display: block;
+        }
+        nav li:hover > a {
+            background: #007BFF;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column; /* Cambiar a vertical en móvil */
+            }
+            nav ul {
+                flex-direction: column; /* Asegura que los menús se alineen verticalmente */
+            }
+            nav li {
+                margin: 10px 0; /* Espacio entre menús en móviles */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ansiedad Social</h1>
+    <p>Recursos y guías para enfrentar la ansiedad social</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Introducción</a>
+            <ul class="submenu">
+                <li><a href= 1.html>¿Qué es la ansiedad social?</a></li>
+                <li><a>Causas</a></li>
+                <li><a href= 3.html>Síntomas</a></li>
+                <li><a href= 4.html>Diagnóstico</a></li>
+                <li><a href= 5.html>Consecuencias</a></li>
+                <li><a href= 6.html>Estadísticas</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Tratamientos</a>
+            <ul class="submenu">
+                <li><a href= 7.html>Terapia cognitivo-conductual</a></li>
+                <li><a href= 8.html>Medicamentos</a></li>
+                <li><a href= 9.html>Técnicas de relajación</a></li>
+                <li><a href= 10.html>Ejercicio físico</a></li>
+                <li><a href= 11.html>Apoyo social</a></li>
+                <li><a href= 12.html>Mindfulness</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Consejos Prácticos</a>
+            <ul class="submenu">
+                <li><a href= 13.html>Manejo del estrés</a></li>
+                <li><a href= 14.html>Estrategias de afrontamiento</a></li>
+                <li><a href= 15.html>Mejorar la comunicación</a></li>
+                <li><a href= 16.html>Enfrentar situaciones sociales</a></li>
+                <li><a href= 17.html>Autoafirmación</a></li>
+                <li><a href= 18.html>Visualización positiva</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Recursos</a>
+            <ul class="submenu">
+                <li><a href= 19.html>Libros recomendados</a></li>
+                <li><a href= 20.html>Enlaces útiles</a></li>
+                <li><a href= 21.html>Grupos de apoyo</a></li>
+                <li><a href= 22.html>Artículos científicos</a></li>
+                <li><a href= 23.html>Videos informativos</a></li>
+                <li><a href= 24.html>Aplicaciones móviles</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Testimonios</a>
+            <ul class="submenu">
+                <li><a href= 25.html>Historias de superación</a></li>
+                <li><a href= 26.html>Experiencias compartidas</a></li>
+                <li><a href= 27.html>Entrevistas</a></li>
+                <li><a href= 28.html>Impacto del tratamiento</a></li>
+                <li><a href= 29.html>Consejos de quienes han superado</a></li>
+                <li><a href= 30.html>Videos de testimonios</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Investigación</a>
+            <ul class="submenu">
+                <li><a href= 31.html>Estudios recientes</a></li>
+                <li><a href= 32.html>Avances en tratamientos</a></li>
+                <li><a href= 33.html>Tendencias en la ansiedad social</a></li>
+                <li><a href= 34.html>Proyectos actuales</a></li>
+                <li><a href= 35.html>Publicaciones relevantes</a></li>
+                <li><a href= 36.html>Conferencias y simposios</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<main>
+    <section>
+    <h2>Causas de la ansiedad social</h2>
+    <p>La ansiedad social es un trastorno complejo y multifacético. Aunque las causas exactas no se comprenden completamente, se han identificado varios factores que pueden contribuir a su desarrollo. Estas causas pueden ser clasificadas en genéticas, ambientales y psicológicas.</p>
+
+    <h3>1. Factores genéticos</h3>
+    <p>Las investigaciones sugieren que la ansiedad social puede tener un componente hereditario. Esto significa que si hay antecedentes familiares de trastornos de ansiedad, el riesgo de desarrollar ansiedad social puede ser mayor. Los estudios han mostrado que los individuos con parientes cercanos que padecen ansiedad social tienen más probabilidades de experimentar síntomas similares.</p>
+
+    <h3>2. Experiencias ambientales</h3>
+    <p>Las experiencias vividas en la infancia y la adolescencia pueden desempeñar un papel crucial en el desarrollo de la ansiedad social. Estas incluyen:</p>
+    <ul>
+        <li><strong>Bullying y acoso escolar:</strong> Ser víctima de bullying puede generar una profunda inseguridad y un miedo persistente a la evaluación negativa por parte de otros.</li>
+        <li><strong>Críticas excesivas:</strong> Crecer en un entorno donde se reciben críticas constantes puede hacer que una persona desarrolle un temor a la evaluación social.</li>
+        <li><strong>Falta de apoyo social:</strong> La ausencia de redes de apoyo, como amigos o familiares, puede aumentar la sensación de soledad y ansiedad en situaciones sociales.</li>
+    </ul>
+
+    <h3>3. Factores de personalidad</h3>
+    <p>Las características de personalidad de un individuo también pueden influir en el desarrollo de la ansiedad social. Algunas características incluyen:</p>
+    <ul>
+        <li><strong>Tendencia a la timidez:</strong> Las personas que son naturalmente tímidas o introvertidas pueden ser más susceptibles a experimentar ansiedad en situaciones sociales.</li>
+        <li><strong>Baja autoestima:</strong> La falta de confianza en uno mismo puede aumentar el miedo a ser juzgado o evaluado negativamente por los demás.</li>
+        <li><strong>Perfeccionismo:</strong> Aquellos que tienen estándares extremadamente altos para sí mismos pueden sentirse constantemente insatisfechos y ansiosos en situaciones sociales.</li>
+    </ul>
+
+    <h3>4. Factores neurobiológicos</h3>
+    <p>Algunos estudios sugieren que los desequilibrios en neurotransmisores, como la serotonina y la dopamina, pueden estar relacionados con la ansiedad social. Estas sustancias químicas son fundamentales para regular el estado de ánimo y las respuestas emocionales. Un funcionamiento anormal de estos neurotransmisores puede contribuir a los síntomas de ansiedad.</p>
+
+    <h3>5. Influencias culturales y sociales</h3>
+    <p>Las normas culturales y sociales pueden influir en la forma en que se experimenta la ansiedad social. En algunas culturas, puede haber un énfasis más fuerte en la conformidad social y el comportamiento colectivo, lo que puede intensificar el miedo a la evaluación negativa. La presión social para actuar de ciertas maneras puede hacer que algunas personas se sientan aún más ansiosas en situaciones sociales.</p>
+
+    <h3>Conclusión</h3>
+    <p>Las causas de la ansiedad social son diversas y complejas, y varían de persona a persona. Reconocer estos factores puede ser un primer paso importante hacia la comprensión y el manejo del trastorno. Si sospechas que tú o alguien que conoces padece ansiedad social, es esencial buscar la orientación de un profesional de la salud mental.</p>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2024 Ansiedad Social. Todos los derechos reservados.</p>
+</footer>
+
+<script>
+    // Aquí puedes agregar interactividad con JavaScript si lo deseas.
+</script>
+
+</body>
+</html>
